@@ -1,0 +1,29 @@
+{
+  "name": "ppmpl-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "nyc": {
+    "reporter": [
+      "html",
+      "text"
+    ],
+    "all": true,
+    "include": [
+      "*.js"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "nyc": "^17.1.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}
